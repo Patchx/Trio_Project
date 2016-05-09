@@ -47,13 +47,14 @@ h3 {
 }
 
 .jumbotron {
+  display: flex;
+  align-items: flex-end;
   background-image: url("http://i.imgur.com/YNX1RBC.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 0px;
-  height: 28vw;
-  
-}
+  height: 24vw; 
+} 
 
 .jumbotron h1 {
   font-weight: 900;
@@ -63,6 +64,7 @@ h3 {
   margin-top: 0px; 
   padding-top: 0px;
 }
+
 h2 {
   padding-top: 2vw;
   margin-left: 2vw;
@@ -312,7 +314,7 @@ div.new-button {
 div.flip-3d {
   perspective: 1200px;
   float: left;
-  height: 10em;
+  height: 8vw;
   width: auto;
   color: white;
   position: relative;
