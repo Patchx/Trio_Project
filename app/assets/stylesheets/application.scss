@@ -317,7 +317,6 @@ div.flip-3d {
   position: relative;
   transform-style: preserve-3d;
   transition: 1s transform;
-  padding:0px;
 }
 
 div.flip-3d:hover { transform: rotateY(.5turn); }
@@ -402,5 +401,5 @@ div.flip-3d:after {
 }
 
 .logo {
-  padding-top: 0px;
+  padding-top: 0px !important;
 }
