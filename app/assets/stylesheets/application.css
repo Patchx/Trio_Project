@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap-sprockets";
+ @import "bootstrap-sprockets.css";
  @import "bootstrap";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
