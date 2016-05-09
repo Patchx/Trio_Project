@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap-sprockets.css";
+ @import "bootstrap-sprockets";
  @import "bootstrap";
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
@@ -45,12 +45,13 @@ h3 {
   font-size: 2vw;
 }
 
-
 .jumbotron h1 {
   font-weight: 900;
   text-align: left;
     color: #FAFF81;
   font-size: 8vw;
+  margin-top: 0px; 
+  padding-top: 0px;
 }
 h2 {
   padding-top: 2vw;
@@ -68,7 +69,8 @@ h2 {
   background-image: url("http://i.imgur.com/YNX1RBC.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-bottom: 5%;
+  padding: 0%;
+  height: 28vw;
 }
 
 .animation {
@@ -311,7 +313,6 @@ div.flip-3d {
   height: 10em;
   width: auto;
   color: white;
-  padding-top: 8em;
   position: relative;
   transform-style: preserve-3d;
   transition: 1s transform;
@@ -408,5 +409,8 @@ div.flip-3d:after {
   text-align: center;
   top: 65%;
   left: 42%;
+}
 
+.logo {
+  padding-top: 0%;
 }
