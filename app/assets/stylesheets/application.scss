@@ -46,6 +46,15 @@ h3 {
   font-size: 2vw;
 }
 
+.jumbotron {
+  background-image: url("http://i.imgur.com/YNX1RBC.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0px;
+  height: 28vw;
+  
+}
+
 .jumbotron h1 {
   font-weight: 900;
   text-align: left;
@@ -64,14 +73,6 @@ h2 {
 
 .nav-links {
   padding-left: 3em;
-}
-
-.header {
-  background-image: url("http://i.imgur.com/YNX1RBC.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 0px;
-  height: 28vw;
 }
 
 .animation {
