@@ -317,13 +317,13 @@ div.flip-3d {
   position: relative;
   transform-style: preserve-3d;
   transition: 1s transform;
+  padding: 0px;
 }
 
 div.flip-3d:hover { transform: rotateY(.5turn); }
 div.flip-3d:hover figcaption { opacity: 1; }
 div.flip-3d:after {
   content: " "; display: block;
-  height: 8vw; width: 100%;
   transform: rotateX(90deg);
   background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
 }
@@ -400,6 +400,3 @@ div.flip-3d:after {
   left: 42%;
 }
 
-.logo {
-  padding-top: 0px !important;
-}
